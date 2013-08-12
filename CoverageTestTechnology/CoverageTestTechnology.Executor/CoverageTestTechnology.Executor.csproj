@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{497F72E1-CDBA-4C36-9630-77C27A910163}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CoverageTestTechnology.Executor</RootNamespace>
+    <AssemblyName>CoverageTestTechnology.Executor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommandExecutor\CTTExecutor.cs" />
+    <Compile Include="CommandOption\CheckCoverageOption.cs" />
+    <Compile Include="CommandOption\CommandArgs.cs" />
+    <Compile Include="CommandOption\CommandLine.cs" />
+    <Compile Include="CommandOption\CompareOption.cs" />
+    <Compile Include="CommandOption\GenerateCttmOption.cs" />
+    <Compile Include="CommandOption\GenerateCttrOption.cs" />
+    <Compile Include="CommandOption\Option.cs" />
+    <Compile Include="CommandOption\OptionFactory.cs" />
+    <Compile Include="CommandOption\OptionString.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CoverageTestTechnology.Case\CoverageTestTechnology.Case.csproj">
+      <Project>{3D018EE3-9396-4DDB-B90E-3FA2285CCFD0}</Project>
+      <Name>CoverageTestTechnology.Case</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CoverageTestTechnology.EmmaData\CoverageTestTechnology.EmmaData.csproj">
+      <Project>{EAE071ED-F4DF-40D0-9F7D-BF1EBBA80385}</Project>
+      <Name>CoverageTestTechnology.EmmaData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CoverageTestTechnology.Report\CoverageTestTechnology.Report.csproj">
+      <Project>{FF7CA4C3-BE96-4621-A2AA-1BA6169BC381}</Project>
+      <Name>CoverageTestTechnology.Report</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CTTExecutor.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

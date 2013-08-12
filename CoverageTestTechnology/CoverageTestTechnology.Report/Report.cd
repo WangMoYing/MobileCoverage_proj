@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CoverageTestTechnology.Report.BlockItem">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAAAAMAAABgAAAAAAAAAQUAAAAAAAGAAAEAAIAAAA=</HashCode>
+      <FileName>BlockItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverageTestTechnology.Report.ClassItem">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAIAkABAAAAABAAAASUAAAAAAAGAAIAAAAAAAA=</HashCode>
+      <FileName>ClassItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverageTestTechnology.Report.DiffItem">
+    <Position X="15.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>DiffItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverageTestTechnology.Report.Item" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAEAAAAAAEQAQEAABAIAIEAAAAAAAAAAA=</HashCode>
+      <FileName>Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverageTestTechnology.Report.MethodItem">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAAAAIQAAAgAAEABAAAAQEAAAAAAAGAAIEAAAAAAA=</HashCode>
+      <FileName>MethodItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverageTestTechnology.Report.PackageItem">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAQEAAAACAAEAAAAAAgAAAA=</HashCode>
+      <FileName>PackageItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverageTestTechnology.Report.ReportDataModel">
+    <Position X="13.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEBAEQABAAgAAAFAEAAAAUABCAAAAABAABAJCAA=</HashCode>
+      <FileName>ReportDataModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverageTestTechnology.Report.ReportGenerator">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReportGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverageTestTechnology.Report.RootItem">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>RootItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverageTestTechnology.Report.SourceCache">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAgAAAAAAAAAAAAAAAAAAAAAgEAAAAAAQAoA=</HashCode>
+      <FileName>SourceCache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverageTestTechnology.Report.SrcFileItem">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAAAAAAAAAAAAAAAAAAAQFAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>SrcFileItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
